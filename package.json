@@ -1,0 +1,16 @@
+{
+  "name": "test-whatsapp-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node generatingNumbers.js && node app.js",
+    "run": "nodemon app.js"
+  },
+  "author": "Mohammad Tavassolian",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.4"
+  }
+}
